@@ -1,0 +1,27 @@
+## ----------------------------------------------
+
+PROCESS DATA COMMANDS
+
+## ----------------------------------------------
+
+python /path_to_scripts/process_dataset.py \
+--data_dir /path_to_data \
+--train_file new_train.csv \
+--validation_file new_valid.csv \
+--test_file new_test.csv \
+--save_data_dir path_to_data
+
+
+## -----------------------------------------------
+
+MODEL SFT COMMANDS
+
+## -----------------------------------------------
+
+python /path_to_src/src/sft.py \
+--data_dir /path_to_data/processed_data_hf \
+--model_path Qwen/Qwen3-0.6B \
+--out_dir /path_to_output/training_runs
+
+
+
