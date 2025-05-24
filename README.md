@@ -99,7 +99,4 @@ All relevant commands are provided in scripts/commands.txt, including:
 - new_train.zip may contain large-scale training data; unzip it before use.
 - All paths can be adjusted via command-line arguments.
 
-## 📬 Contact
-For questions, feel free to open an issue or contact the repository maintainer.
-
 
